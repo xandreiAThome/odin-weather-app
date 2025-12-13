@@ -5,6 +5,13 @@
   margin: 0;
 }
 
+:root {
+  background-image: url("../public/brandon-stars.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 body {
   min-height: 100dvh;
   font-family: "Inter", sans-serif;

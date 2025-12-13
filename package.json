@@ -1,18 +1,8 @@
 {
-  "name": "odin-todo-list",
+  "name": "odin-weather-app",
   "version": "1.0.0",
-  "description": "",
-  "homepage": "https://github.com/xandreiAThome/odin-website-template#readme",
-  "bugs": {
-    "url": "https://github.com/xandreiAThome/odin-website-template/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xandreiAThome/odin-website-template.git"
-  },
-  "license": "ISC",
-  "author": "",
-  "main": "./src/index.js",
+  "description": "A repo for a quick webpack config",
+  "main": "webpack.common.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.prod.js",
@@ -29,5 +19,15 @@
     "webpack-dev-server": "^5.2.2",
     "webpack-merge": "^6.0.1"
   },
-  "dependencies": {}
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xandreiAThome/odin-weather-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xandreiAThome/odin-weather-app/issues"
+  },
+  "homepage": "https://github.com/xandreiAThome/odin-weather-app#readme"
 }

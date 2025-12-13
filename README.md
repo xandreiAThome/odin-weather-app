@@ -1,3 +1,3 @@
-# Webpack Template Repository
+# Weather App
 
-A repo for a quick webpack config
+A simple weather app for API application
