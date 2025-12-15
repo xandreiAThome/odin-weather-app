@@ -8,13 +8,19 @@
     <title>Weather</title>
   </head>
   <body>
-    <header><input type="text" /></header>
+    <header>
+      <div id="search-container">
+        <input type="text" id="search" placeholder="Search location..." />
+        <button id="search-btn" type="button">🔍</button>
+      </div>
+    </header>
     <div id="content">
-      <main>
+      <div id="loading" class="hidden">Loading...</div>
+      <main id="weather-display">
         <h4 id="condition">Light rain</h4>
         <h3 id="location">Manila, Philippines</h3>
         <div id="temp-container">
-          <h1 id="temp">0</h1>
+          <h1 id="temp">0<span id="temp-unit">°C</span></h1>
           <div>
             <h4 id="rel-temp">Feels Like:</h4>
             <h4 id="speed">Windspeed:</h4>
